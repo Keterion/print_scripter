@@ -1,10 +1,14 @@
 # Syntax
 ## Grouping
 You bind settings to specified groups like so:
-[setting:time;setting:time]{Text}
-[wait:time] -> stops the printing for time in ms
+[setting:time][setting:time]{Text}
 ## In-Text commands
-You can use all of the commands in curly braces:
+You can use all of the commands in curly braces.
+
+
+Example:
+
+
 "{Hello [letter:100]World!}"
 ## Formatting
 \ escape characters don't work anymore. Now the curly braces are used to set a line.
