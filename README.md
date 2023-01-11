@@ -12,8 +12,8 @@ You can use all of the commands in curly braces:
 # The use thingies
 time is in the format of milliseconds
 |   Command  |Parameter|Function|
-|------------|---------|--------|
-| letter / l |   time  |sets the delay between the single letters|
-| word / w   |   time  |sets the delay between words, works together with the letters|
-| wait       |   time  |pauses for the specified ammount of time|
+|:------------:|:---------:|:--------|
+| letter / l |   time  |Sets the delay between the single letters|
+| word / w   |   time  |Sets the delay between words, works together with the letters|
+| wait       |   time  |Pauses for the specified ammount of time|
 | {}         |         |You put the text in between these|
