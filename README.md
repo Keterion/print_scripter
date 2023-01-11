@@ -11,7 +11,9 @@ You can use all of the commands in curly braces:
 
 # The use thingies
 time is in the format of milliseconds
-[letter:time] => sets the delay between the single letters
-[word:time] => sets the delay between words, works together with the letters
-[wait:time] => pauses for the specified ammount of time
-{} => You put the text in between these, you can also use the commands above.
+|   Command  |Parameter|Function|
+|------------|---------|--------|
+| letter / l |   time  |sets the delay between the single letters|
+| word / w   |   time  |sets the delay between words, works together with the letters|
+| wait       |   time  |pauses for the specified ammount of time|
+| {}         |         |You put the text in between these|
