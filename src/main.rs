@@ -1,4 +1,5 @@
-mod printer;
+mod fancy_printer;
+use fancy_printer::delay_printer;
 
 fn main(){
     // let msg: &'static str = "[letter:50]{Hello World!} [wait:1000] [word:200]{This is a great program}";
@@ -9,14 +10,14 @@ fn main(){
                 println!("Using test");
                 let dummy: &str =   "[letter:50][w:200]{Hello World!}[wait:500][l:50]{This is a [wait:250][letter:5]GREAT [letter:50]program.}";
                 println!("{}", dummy);
-                printer::decode(dummy);
+                delay_printer::decode(dummy);
             }
             else if msg.contains("!pit!"){
-                printer::print_in_time(&msg, 2000);
+                delay_printer::print_in_time(&msg, 2000);
             }
             else {
                 // println!("Formatting...");
-                printer::decode(&msg);
+                delay_printer::decode(&msg);
             }
         },
         Err(exception) => {
