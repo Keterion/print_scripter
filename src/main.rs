@@ -8,7 +8,7 @@ fn main(){
         Ok(_n) => {
             if msg.contains("!test!") {
                 println!("Using test");
-                let dummy: &str =   "[letter:50][w:200]{Hello World!}[wait:500][l:50]{This is a [wait:250][letter:5]GREAT [letter:50]program.}";
+                let dummy: &str = "[letter:50:2][w:100:1]{Hello World!}[wait:500][l:50]{This is a [wait:250][letter:5]GREAT [letter:50]program.} [letter:50:7][word:250:5]{And here, you can even(WordToHere) see how(letterToHere) the settings can be limited to a certain ammount of words.}";
                 println!("{}", dummy);
                 delay_printer::decode(dummy);
             }
