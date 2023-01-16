@@ -9,7 +9,7 @@ You can use all of the commands in curly braces.
 Example:
 
 
-"{Hello [letter\:100:1]World!}"
+"{Hello [letter\:100\:1]World!}"
 ## Formatting
 \ escape characters don't work anymore. Now the curly braces are used to set a linebreak.
 
