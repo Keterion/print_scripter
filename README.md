@@ -15,9 +15,9 @@ Example:
 
 # The use thingies
 time is in the format of milliseconds
-|   Command  |Parameter|Function|
-|:------------:|:---------:|:--------|
-| letter / l |   time  |Sets the delay between the single letters|
-| word / w   |   time  |Sets the delay between words, works together with the letters|
-| wait       |   time  |Pauses for the specified ammount of time|
-| {}         |         |You put the text in between these|
+|   Command  |Parameter|    Parameter   |                          Function                           |
+|:----------:|:-------:|:--------------:|:-----------------------------------------------------------:|
+| letter / l |   time  | words affected |Sets the delay between the single letters|
+| word / w   |   time  | words affected |Sets the delay between words, works together with the letters|
+| wait       |   time  | words affected |Pauses for the specified ammount of time|
+| {}         |         | words affected |You put the text in between these|
